@@ -1,4 +1,4 @@
-import { useRef} from "react";
+import { useRef } from "react";
 import {
   FaLinkedin,
   FaTwitterSquare,
@@ -6,10 +6,9 @@ import {
   FaInstagram,
   FaMoon,
 } from "react-icons/fa";
-import {ImSun} from 'react-icons/im'
+import { ImSun } from "react-icons/im";
 
 export const Hero = () => {
-
   if (
     localStorage.theme === "dark" ||
     (!("theme" in localStorage) &&
@@ -33,9 +32,15 @@ export const Hero = () => {
     <div className="dark:ease-in duration-200 dark:bg-neutral-900">
       <div className="max-w-[708px] m-auto p-2">
         <div className="flex justify-end mt-3">
-          <button onClick={changeDarkMode} className='w-10 h-10 rounded-lg text-gray-100 '>
-          <FaMoon size={20} className='text-slate-900 absolute ml-[10px] opacity-100 dark:opacity-0'/>
-          <ImSun size={20} className='m-auto opacity-0 dark:opacity-100'/>
+          <button
+            onClick={changeDarkMode}
+            className="w-10 h-10 rounded-lg text-gray-100 "
+          >
+            <FaMoon
+              size={20}
+              className="text-slate-900 absolute ml-[10px] opacity-100 dark:opacity-0"
+            />
+            <ImSun size={20} className="m-auto opacity-0 dark:opacity-100" />
           </button>
         </div>
         <section className="mt-32">
@@ -55,16 +60,28 @@ export const Hero = () => {
             </p>
             <div className="flex gap-4 mt-5 text-zinc-800 dark:text-neutral-300">
               <a className="cursor-pointer">
-                <FaLinkedin size={30} className='hover:scale-110 ease-in duration-300 dark:hover:text-sky-200/75' />
+                <FaLinkedin
+                  size={30}
+                  className="hover:scale-110 ease-in duration-300 dark:hover:text-sky-200/75"
+                />
               </a>
               <a className="cursor-pointer">
-                <FaGithub size={30}  className='hover:scale-110 duration-200 dark:hover:text-sky-200/75'/>
+                <FaGithub
+                  size={30}
+                  className="hover:scale-110 duration-200 dark:hover:text-sky-200/75"
+                />
               </a>
               <a className="cursor-pointer">
-                <FaInstagram size={30} className='hover:scale-110 duration-200 dark:hover:text-sky-200/75' />
+                <FaInstagram
+                  size={30}
+                  className="hover:scale-110 duration-200 dark:hover:text-sky-200/75"
+                />
               </a>
               <a className="cursor-pointer">
-                <FaTwitterSquare size={30} className='hover:scale-110 duration-200 dark:hover:text-sky-200/75' />
+                <FaTwitterSquare
+                  size={30}
+                  className="hover:scale-110 duration-200 dark:hover:text-sky-200/75"
+                />
               </a>
             </div>
           </div>
@@ -247,7 +264,6 @@ export const Hero = () => {
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 block w-full p-2.5"
             />
             <button className="my-5 border border-gray-300 text-gray-900 bg-zinc-200/75 font-inter font-medium text-sm p-2 rounded-lg hover:bg-slate-300/50 active:bg-slate-300 dark:bg-slate-100">
-              
               Submit
             </button>
           </form>
