@@ -95,7 +95,7 @@ export const Hero = () => {
                     href="https://www.coderhouse.com/certificados/62c73155664f14001a0c2950"
                     target={"_blank"}
                   >
-                    › CoderHouse Web Developer{" "}
+                    › CoderHouse Web Developer
                   </a>
                 </li>
                 <li className="p-1 hover:bg-slate-200/75 ease-in duration-200 rounded-md cursor-pointer dark:hover:bg-slate-800/50">
@@ -103,7 +103,7 @@ export const Hero = () => {
                     href="https://www.coderhouse.com/certificados/6315e19b182e080024f14459"
                     target={"_blank"}
                   >
-                    › CoderHouse JavaScript{" "}
+                    › CoderHouse JavaScript
                   </a>
                 </li>
                 <li className="p-1 hover:bg-slate-200/75 ease-in duration-200 rounded-md cursor-pointer dark:hover:bg-slate-800/50">
@@ -111,7 +111,7 @@ export const Hero = () => {
                     href="https://www.coderhouse.com/certificados/634c083509252f000ea15200"
                     target={"_blank"}
                   >
-                    › CoderHouse ReactJS{" "}
+                    › CoderHouse ReactJS
                   </a>
                 </li>
                 <li className="p-1 hover:bg-slate-200/75 ease-in duration-200 rounded-md cursor-pointer dark:hover:bg-slate-800/50">
@@ -119,7 +119,7 @@ export const Hero = () => {
                     href="https://www.freecodecamp.org/certification/fccb9ec96d3-33b2-45e9-a3e7-01faf6520cdb/responsive-web-design"
                     target={"_blank"}
                   >
-                    › FreeCodeCamp Responsive Design{" "}
+                    › FreeCodeCamp Responsive Design
                   </a>
                 </li>
                 <li className="p-1 hover:bg-slate-200/75 ease-in duration-200 rounded-md cursor-pointer dark:hover:bg-slate-800/50">
@@ -127,12 +127,12 @@ export const Hero = () => {
                     href="https://platzi.com/p/tomasagustincoll/curso/3208-course/diploma/detalle/"
                     target={"_blank"}
                   >
-                    › Platzi Basic Programming{" "}
+                    › Platzi Basic Programming
                   </a>
                 </li>
                 <li className="p-1 hover:bg-slate-200/75 ease-in duration-200 rounded-md cursor-pointer dark:hover:bg-slate-800/50">
                   <a href="" target={"_blank"}>
-                    › Google Introduction to Web Development{" "}
+                    › Google Introduction to Web Development
                   </a>
                 </li>
               </ul>
@@ -247,8 +247,8 @@ export const Hero = () => {
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 block w-full p-2.5"
             />
             <button className="my-5 border border-gray-300 text-gray-900 bg-zinc-200/75 font-inter font-medium text-sm p-2 rounded-lg hover:bg-slate-300/50 active:bg-slate-300 dark:bg-slate-100">
-              {" "}
-              Submit{" "}
+              
+              Submit
             </button>
           </form>
         </section>
