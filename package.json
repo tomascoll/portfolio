@@ -1,6 +1,7 @@
 {
   "name": "tomas-coll",
   "private": true,
+  "homepage": "http://tomascoll.github.io/portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
