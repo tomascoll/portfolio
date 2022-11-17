@@ -34,18 +34,19 @@ export const Hero = () => {
         <div className="flex justify-end mt-3">
           <button
             onClick={changeDarkMode}
-            className="w-10 h-10 rounded-lg text-gray-100 "
+            className="mt-2 mr-2 sm:mr-0 text-gray-100 "
           >
             <FaMoon
-              size={20}
-              className="text-slate-900 absolute ml-[10px] opacity-100 dark:opacity-0"
+              size={25}
+              className="text-slate-900 absolute opacity-100 dark:opacity-0"
             />
-            <ImSun size={20} className="m-auto opacity-0 dark:opacity-100" />
+            <ImSun size={25} className="m-auto opacity-0 dark:opacity-100" />
           </button>
         </div>
         <section className="mt-32">
           <img
-            src="src\components\assets\tomascoll.jpeg"
+            alt="Tomas Coll image"
+            src="\src\components\assets\tomascoll.jpeg"
             className="rounded-full w-40 h-40 object-cover grayscale hover:grayscale-0 ease-in duration-300"
           />
           <h1 className="text-5xl text-stone-800 my-5 font-inter font-extrabold dark:text-neutral-300">
@@ -59,25 +60,25 @@ export const Hero = () => {
               projects.
             </p>
             <div className="flex gap-4 mt-5 text-zinc-800 dark:text-neutral-300">
-              <a className="cursor-pointer">
+              <a className="cursor-pointer" href="https://www.linkedin.com/in/tomas-coll-b7b51b23b/">
                 <FaLinkedin
                   size={30}
                   className="hover:scale-110 ease-in duration-300 dark:hover:text-sky-200/75"
                 />
               </a>
-              <a className="cursor-pointer">
+              <a className="cursor-pointer" href="https://github.com/tomascoll">
                 <FaGithub
                   size={30}
                   className="hover:scale-110 duration-200 dark:hover:text-sky-200/75"
                 />
               </a>
-              <a className="cursor-pointer">
+              <a className="cursor-pointer" href="https://www.instagram.com/tomascoll3/">
                 <FaInstagram
                   size={30}
                   className="hover:scale-110 duration-200 dark:hover:text-sky-200/75"
                 />
               </a>
-              <a className="cursor-pointer">
+              <a className="cursor-pointer" href="https://twitter.com/tomascoll_3">
                 <FaTwitterSquare
                   size={30}
                   className="hover:scale-110 duration-200 dark:hover:text-sky-200/75"
@@ -228,8 +229,9 @@ export const Hero = () => {
                 target={"_blank"}
               >
                 <img
-                  className="shadow-lg rounded-md sm:w-72 h-40 cursor-pointer object-cover"
-                  src="src\components\assets\preview.jpg"
+                  alt="Coffe time thumbnail"
+                  className="shadow-lg rounded-md sm:w-72 h-40 cursor-pointer object-cover hover:scale-105 duration-300"
+                  src="\src\components\assets\preview.jpg"
                 />
               </a>
               <h4 className="text-lg text-stone-800 mb-1 mt-4 font-inter font-medium text-center dark:text-neutral-300">
